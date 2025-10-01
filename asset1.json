@@ -1,0 +1,370 @@
+{
+  "parentCode": "concurrent-viewers",
+  "presetId": 1,
+  "section": [
+    {
+      "parentCode": "concurrent-viewers",
+      "code": "main",
+      "position": 0
+    }
+  ],
+  "part": [
+    {
+      "parentCode": "main",
+      "code": "Service",
+      "position": 0
+    },
+    {
+      "parentCode": "main",
+      "code": "design",
+      "position": 1
+    }
+  ],
+  "attribute": [
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": false,
+        "isJs": true
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--onecomme-service",
+      "code": "onecomme-service",
+      "parentCode": "Service",
+      "attribute": "onecomme-services",
+      "value": "service-id",
+      "description": true
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "code": "cc-font",
+      "parentCode": "design",
+      "attribute": "font",
+      "cssvarColor": "--cc-font-color",
+      "cssvarFont": "--cc-font",
+      "cssvarSize": "--cc-font-size",
+      "cssvarWeight": "--cc-font-weight",
+      "color": "#FFFFFF",
+      "font": "Noto Sans",
+      "style": "normal",
+      "type": "none",
+      "size": 24,
+      "unit": "px",
+      "weight": 600,
+      "minSize": 0,
+      "maxSize": 50,
+      "minWeight": 0,
+      "maxWeight": 900,
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-icon",
+      "code": "cc-icon",
+      "parentCode": "design",
+      "attribute": "content",
+      "value": "🌸",
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-bg-color",
+      "code": "cc-bg-color",
+      "parentCode": "design",
+      "attribute": "color",
+      "value": "#f2aebc",
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-border",
+      "code": "cc-border",
+      "parentCode": "design",
+      "attribute": "border",
+      "value": 1,
+      "style": "solid",
+      "color": "#FFFFFF",
+      "unit": "px",
+      "min": 0,
+      "max": 10,
+      "masks": {
+        "0": "0",
+        "10": "10"
+      },
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-radius",
+      "code": "cc-radius",
+      "parentCode": "design",
+      "attribute": "radius",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "value": [
+        25,
+        25,
+        25,
+        25
+      ],
+      "masks": {
+        "0": "0",
+        "100": "100"
+      },
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-padding",
+      "code": "cc-padding",
+      "parentCode": "design",
+      "attribute": "padding",
+      "unit": "px",
+      "min": 0,
+      "max": 50,
+      "value": [
+        5,
+        15,
+        5,
+        15
+      ],
+      "masks": {
+        "0": "0",
+        "50": "50"
+      },
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-min-width",
+      "code": "cc-min-width",
+      "parentCode": "design",
+      "attribute": "size",
+      "value": 80,
+      "unit": "px",
+      "min": 0,
+      "max": 200,
+      "masks": {
+        "0": "0",
+        "200": "200"
+      },
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-min-height",
+      "code": "cc-min-height",
+      "parentCode": "design",
+      "attribute": "size",
+      "value": 20,
+      "unit": "px",
+      "min": 0,
+      "max": 120,
+      "masks": {
+        "0": "0",
+        "120": "120"
+      },
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-box-shadow",
+      "code": "cc-box-shadow",
+      "parentCode": "design",
+      "attribute": "box-shadow",
+      "isEffect": true,
+      "horizontal": 0,
+      "vertical": 7,
+      "blur": 7,
+      "unit": "px",
+      "color": "#64646f33",
+      "inset": false,
+      "spread": 0,
+      "minlength": -30,
+      "maxlength": 30,
+      "minblur": -30,
+      "maxblur": 30,
+      "minspread": -20,
+      "maxspread": 20,
+      "description": false
+    }
+  ],
+  "language": [
+    {
+      "code": "main",
+      "en-US": "Main",
+      "ja": "メイン",
+      "zh-CN": "主要",
+      "zh-TW": "主要"
+    },
+    {
+      "code": "Service",
+      "en-US": "Service",
+      "ja": "枠名",
+      "zh-CN": "直播间名称",
+      "zh-TW": "聊天室名稱"
+    },
+    {
+      "code": "onecomme-service",
+      "en-US": "Service",
+      "ja": "枠名",
+      "zh-CN": "直播间名称",
+      "zh-TW": "聊天室名稱"
+    },
+    {
+      "code": "design",
+      "en-US": "Design",
+      "ja": "デザイン",
+      "zh-CN": "设计",
+      "zh-TW": "設計"
+    },
+    {
+      "code": "cc-font",
+      "en-US": "Font",
+      "ja": "フォント",
+      "zh-CN": "字体",
+      "zh-TW": "字體"
+    },
+    {
+      "code": "cc-icon",
+      "en-US": "Emoji",
+      "ja": "絵文字",
+      "zh-CN": "表情符号",
+      "zh-TW": "表情符號"
+    },
+    {
+      "code": "cc-bg-color",
+      "en-US": "Background Color",
+      "ja": "背景色",
+      "zh-CN": "背景色",
+      "zh-TW": "背景色"
+    },
+    {
+      "code": "cc-border",
+      "en-US": "Border",
+      "ja": "境界線",
+      "zh-CN": "边框",
+      "zh-TW": "邊框"
+    },
+    {
+      "code": "cc-radius",
+      "en-US": "Border Radius",
+      "ja": "枠の角丸",
+      "zh-CN": "边框圆角",
+      "zh-TW": "邊框圓角"
+    },
+    {
+      "code": "cc-padding",
+      "en-US": "Padding",
+      "ja": "パディング",
+      "zh-CN": "内边距",
+      "zh-TW": "內邊距"
+    },
+    {
+      "code": "cc-min-width",
+      "en-US": "Min Width",
+      "ja": "最小幅度",
+      "zh-CN": "最小宽度",
+      "zh-TW": "最小寬度"
+    },
+    {
+      "code": "cc-min-height",
+      "en-US": "Min Height",
+      "ja": "最小高さ",
+      "zh-CN": "最小高度",
+      "zh-TW": "最小高度"
+    },
+    {
+      "code": "cc-box-shadow",
+      "en-US": "Shadow",
+      "ja": "影",
+      "zh-CN": "阴影",
+      "zh-TW": "陰影"
+    }
+  ],
+  "description": [
+    {
+      "code": "onecomme-service",
+      "en-US": "After setting the Service ID, please remember to save your changes and manually refresh the OBS resources.",
+      "ja": "Service IDの設定が完了したら、必ず保存してください。また、OBSリソースを手動でリフレッシュしてください。",
+      "zh-CN": "完成 Service ID 设置后，请勿忘保存，并手动刷新 OBS 资源。",
+      "zh-TW": "完成 Service ID 設定後，請記得儲存，並手動重新整理 OBS 資源。"
+    }
+  ]
+}

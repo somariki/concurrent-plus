@@ -1,0 +1,63 @@
+@import url('./preset1.css');
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cc-bg-color);
+    border: var(--cc-border);
+    border-radius: var(--cc-radius);
+    min-width: var(--cc-min-width);
+    width: fit-content;
+    min-height: var(--cc-min-height);
+    padding: var(--cc-padding);
+    box-shadow: var(--cc-box-shadow);
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    &::before{
+        content: var(--cc-icon);
+        width: var(--cc-font-size);
+        height: var(--cc-font-size);
+    }
+}
+
+.count{
+    font-family: var(--cc-font);
+    color: var(--cc-font-color);
+    font-weight: var(--cc-font-weight);
+    text-align: center;
+    font-size: var(--cc-font-size);
+    letter-spacing: normal;
+}
+.number {
+    display: flex;
+    position: relative;
+    width: 0;
+    height: var(--cc-font-size);
+    overflow: hidden;
+    
+}
+
+.number > span {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0;
+    flex-shrink: 0;
+    position: absolute;
+    line-height: 1;
+    transition: all 2s ease;
+}
+
+.number > span.visible {
+    position: static;
+    opacity: 1;
+    flex-shrink: 1;
+}

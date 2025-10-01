@@ -1,0 +1,405 @@
+[
+  {
+    "title": "Concurrent Viewers",
+    "data": {
+      "isRoot": true,
+      "name": "Concurrent Viewers",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "indexFile": null,
+      "assetFile": "asset1.json",
+      "presetFile": "preset1.json",
+      "cssFile": "preset1.css",
+      "presetId": 1
+    },
+    "isSelected": false,
+    "children": [
+      {
+        "title": "main",
+        "data": {
+          "isSection": true,
+          "code": "main",
+          "language": {
+            "en-US": "Main",
+            "ja": "メイン",
+            "zh-CN": "主要",
+            "zh-TW": "主要"
+          }
+        },
+        "isSelected": false,
+        "children": [
+          {
+            "title": "Service",
+            "data": {
+              "isPart": true,
+              "code": "Service",
+              "language": {
+                "en-US": "Service",
+                "ja": "枠名",
+                "zh-CN": "直播间名称",
+                "zh-TW": "聊天室名稱"
+              }
+            },
+            "isSelected": true,
+            "children": [
+              {
+                "title": "onecomme-service",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": false,
+                  "isJs": true,
+                  "code": "onecomme-service",
+                  "language": {
+                    "en-US": "Service",
+                    "ja": "枠名",
+                    "zh-CN": "直播间名称",
+                    "zh-TW": "聊天室名稱"
+                  },
+                  "description": {
+                    "en-US": "After setting the Service ID, please remember to save your changes and manually refresh the OBS resources.",
+                    "ja": "Service IDの設定が完了したら、必ず保存してください。また、OBSリソースを手動でリフレッシュしてください。",
+                    "zh-CN": "完成 Service ID 设置后，请勿忘保存，并手动刷新 OBS 资源。",
+                    "zh-TW": "完成 Service ID 設定後，請記得儲存，並手動重新整理 OBS 資源。"
+                  },
+                  "isDescription": true,
+                  "attribute": "onecomme-services",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "valueType": "string",
+                    "value": "service-id"
+                  }
+                },
+                "isSelected": false
+              }
+            ],
+            "isExpanded": false
+          },
+          {
+            "title": "design",
+            "data": {
+              "isPart": true,
+              "code": "design",
+              "language": {
+                "en-US": "Design",
+                "ja": "デザイン",
+                "zh-CN": "设计",
+                "zh-TW": "設計"
+              }
+            },
+            "isSelected": false,
+            "children": [
+              {
+                "title": "cc-font",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-font",
+                  "language": {
+                    "en-US": "Font",
+                    "ja": "フォント",
+                    "zh-CN": "字体",
+                    "zh-TW": "字體"
+                  },
+                  "isDescription": false,
+                  "attribute": "font",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "multiple",
+                    "color": "#FFFFFF",
+                    "type": "none",
+                    "style": "normal",
+                    "size": 24,
+                    "unit": "px",
+                    "weight": 600,
+                    "font": "Noto Sans",
+                    "cssvarColor": "cc-font-color",
+                    "cssvarFont": "cc-font",
+                    "cssvarSize": "cc-font-size",
+                    "cssvarWeight": "cc-font-weight",
+                    "minSize": 0,
+                    "maxSize": 50,
+                    "minWeight": 0,
+                    "maxWeight": 900
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-icon",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-icon",
+                  "language": {
+                    "en-US": "Emoji",
+                    "ja": "絵文字",
+                    "zh-CN": "表情符号",
+                    "zh-TW": "表情符號"
+                  },
+                  "isDescription": false,
+                  "attribute": "content",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "string",
+                    "value": "🌸"
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-bg-color",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-bg-color",
+                  "language": {
+                    "en-US": "Background Color",
+                    "ja": "背景色",
+                    "zh-CN": "背景色",
+                    "zh-TW": "背景色"
+                  },
+                  "isDescription": false,
+                  "attribute": "color",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "string",
+                    "value": "#f2aebc"
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-border",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-border",
+                  "language": {
+                    "en-US": "Border",
+                    "ja": "境界線",
+                    "zh-CN": "边框",
+                    "zh-TW": "邊框"
+                  },
+                  "isDescription": false,
+                  "attribute": "border",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "value": 1,
+                    "style": "solid",
+                    "color": "#FFFFFF",
+                    "unit": "px",
+                    "min": 0,
+                    "max": 10
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-radius",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-radius",
+                  "language": {
+                    "en-US": "Border Radius",
+                    "ja": "枠の角丸",
+                    "zh-CN": "边框圆角",
+                    "zh-TW": "邊框圓角"
+                  },
+                  "isDescription": false,
+                  "attribute": "radius",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "valueTopLeft": 25,
+                    "valueTopRight": 25,
+                    "valueBottomRight": 25,
+                    "valueBottomLeft": 25,
+                    "min": 0,
+                    "max": 100,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-padding",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-padding",
+                  "language": {
+                    "en-US": "Padding",
+                    "ja": "パディング",
+                    "zh-CN": "内边距",
+                    "zh-TW": "內邊距"
+                  },
+                  "isDescription": false,
+                  "attribute": "padding",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "valueTop": 5,
+                    "valueRight": 15,
+                    "valueBottom": 5,
+                    "valueLeft": 15,
+                    "min": 0,
+                    "max": 50,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-min-width",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-min-width",
+                  "language": {
+                    "en-US": "Min Width",
+                    "ja": "最小幅度",
+                    "zh-CN": "最小宽度",
+                    "zh-TW": "最小寬度"
+                  },
+                  "isDescription": false,
+                  "attribute": "size",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "value": 80,
+                    "min": 0,
+                    "max": 200,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-min-height",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-min-height",
+                  "language": {
+                    "en-US": "Min Height",
+                    "ja": "最小高さ",
+                    "zh-CN": "最小高度",
+                    "zh-TW": "最小高度"
+                  },
+                  "isDescription": false,
+                  "attribute": "size",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "value": 20,
+                    "min": 0,
+                    "max": 120,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-box-shadow",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-box-shadow",
+                  "language": {
+                    "en-US": "Shadow",
+                    "ja": "影",
+                    "zh-CN": "阴影",
+                    "zh-TW": "陰影"
+                  },
+                  "isDescription": false,
+                  "attribute": "box-shadow",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "string",
+                    "isEffect": true,
+                    "horizontal": 0,
+                    "vertical": 7,
+                    "blur": 7,
+                    "spread": 0,
+                    "unit": "px",
+                    "color": "#64646f33",
+                    "inset": false,
+                    "minlength": -30,
+                    "maxlength": 30,
+                    "minblur": -30,
+                    "maxblur": 30,
+                    "minspread": -20,
+                    "maxspread": 20
+                  }
+                },
+                "isSelected": false
+              }
+            ],
+            "isExpanded": false
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+:root {
+--cc-font-color: #FFFFFF;
+--cc-font-size: 24px;
+--cc-font: Noto Sans;
+--cc-font-weight: 600;
+--cc-icon: '🌸';
+--cc-bg-color: #f2aebc;
+--cc-border: 1px solid #FFFFFF;
+--cc-radius: 25px 25px 25px 25px;
+--cc-padding: 5px 15px 5px 15px;
+--cc-min-width: 80px;
+--cc-min-height: 20px;
+--cc-box-shadow: 0px 7px 7px 0px #64646f33;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneComme | Viewer</title>
+    <meta name="referrer" content="no-referrer" />
+    <link rel="stylesheet" href="/plugins/onecomme.plugin.template-utils/css/fonts.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body hidden>
+    <div id="app" class="app">
+      <div class="main">
+        <div class="section viewer" v-if="visitorData.viewer">
+          <div class="icon icon-viewer"></div>
+          <div class="count count-viewer">
+            <span ref="numViewer" class="number"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../__origin/js/vue.min.js"></script>
+    <!--script src="../__origin/js/onesdk.js"></script-->
+    <!--script src="onesdk.js"></script-->
+    <script src="/plugins/onecomme.plugin.template-utils/template-viewer.js"></script>
+  </body>
+</html>

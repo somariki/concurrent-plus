@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>OneComme | Likes</title>
+    <meta name="referrer" content="no-referrer" />
+    <link rel="stylesheet" href="/plugins/onecomme.plugin.template-utils/css/fonts.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body hidden>
+    <div id="app" class="app">
+      <div class="main">
+        <div class="section upVote" v-if="visitorData.upVote">
+          <div class="icon icon-upVote"></div>
+          <div class="count count-upVote">
+            <span ref="numUpVote" class="number"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../__origin/js/vue.min.js"></script>
+    <!--script src="../__origin/js/onesdk.js"></script-->
+    <!--script src="onesdk.js"></script-->
+    <script src="/plugins/onecomme.plugin.template-utils/template-viewer.js"></script>
+  </body>
+</html>

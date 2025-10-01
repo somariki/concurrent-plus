@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Viewers",
+    "code": "concurrent-viewers",
+    "type": "concurrent-viewers",
+    "isOriginal": true,
+    "indexFile": null,
+    "assetFile": "asset1.json",
+    "presetFile": "preset1.json",
+    "cssFile": "preset1.css",
+    "presetId": 1,
+    "position": 0
+  },
+  {
+    "name": "Followers",
+    "code": "concurrent-followers",
+    "type": "concurrent-followers",
+    "isOriginal": true,
+    "indexFile": "index2.html",
+    "assetFile": "asset1.json",
+    "presetFile": "preset1.json",
+    "cssFile": "preset1.css",
+    "presetId": 2,
+    "position": 1
+  },
+  {
+    "name": "Likes",
+    "code": "concurrent-upVotes",
+    "type": "concurrent-upVotes",
+    "isOriginal": true,
+    "indexFile": "index3.html",
+    "assetFile": "asset1.json",
+    "presetFile": "preset1.json",
+    "cssFile": "preset1.css",
+    "presetId": 3,
+    "position": 2
+  },
+  {
+    "name": "Total",
+    "code": "concurrent-total",
+    "type": "concurrent-total",
+    "isOriginal": true,
+    "indexFile": "index4.html",
+    "assetFile": "asset1.json",
+    "presetFile": "preset1.json",
+    "cssFile": "preset1.css",
+    "presetId": 4,
+    "position": 3
+  }
+]
