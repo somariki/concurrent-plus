@@ -1,6 +1,6 @@
 [
   {
-    "name": "Viewers",
+    "name": "Viewers (YT, Twitch, BiliBili)",
     "code": "concurrent-viewers",
     "type": "concurrent-viewers",
     "isOriginal": true,
@@ -12,37 +12,37 @@
     "position": 0
   },
   {
-    "name": "Followers",
+    "name": "Followers (Twitch)",
     "code": "concurrent-followers",
-    "type": "concurrent-followers",
+    "type": "concurrent-viewers",
     "isOriginal": true,
     "indexFile": "index2.html",
     "assetFile": "asset1.json",
-    "presetFile": "preset1.json",
+    "presetFile": "preset2.json",
     "cssFile": "preset1.css",
     "presetId": 2,
     "position": 1
   },
   {
-    "name": "Likes",
-    "code": "concurrent-upVotes",
-    "type": "concurrent-upVotes",
+    "name": "Likes (YT)",
+    "code": "concurrent-like",
+    "type": "concurrent-viewers",
     "isOriginal": true,
     "indexFile": "index3.html",
     "assetFile": "asset1.json",
-    "presetFile": "preset1.json",
+    "presetFile": "preset3.json",
     "cssFile": "preset1.css",
     "presetId": 3,
     "position": 2
   },
   {
-    "name": "Total",
+    "name": "Total Views (Bilibili)",
     "code": "concurrent-total",
-    "type": "concurrent-total",
+    "type": "concurrent-viewers",
     "isOriginal": true,
     "indexFile": "index4.html",
     "assetFile": "asset1.json",
-    "presetFile": "preset1.json",
+    "presetFile": "preset4.json",
     "cssFile": "preset1.css",
     "presetId": 4,
     "position": 3

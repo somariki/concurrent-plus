@@ -59,11 +59,11 @@
       "font": "Noto Sans",
       "style": "normal",
       "type": "none",
-      "size": 24,
+      "size": 60,
       "unit": "px",
       "weight": 600,
       "minSize": 0,
-      "maxSize": 50,
+      "maxSize": 100,
       "minWeight": 0,
       "maxWeight": 900,
       "description": false
@@ -83,6 +83,54 @@
       "parentCode": "design",
       "attribute": "content",
       "value": "🌸",
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-icon-size",
+      "code": "cc-icon-size",
+      "parentCode": "design",
+      "attribute": "size",
+      "value": 25,
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "masks": {
+        "0": "0",
+        "100": "100"
+      },
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
+      "cssvar": "--cc-icon-size",
+      "code": "cc-icon-size",
+      "parentCode": "design",
+      "attribute": "size",
+      "value": 25,
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "masks": {
+        "0": "0",
+        "100": "100"
+      },
       "description": false
     },
     {
@@ -116,7 +164,7 @@
       "code": "cc-border",
       "parentCode": "design",
       "attribute": "border",
-      "value": 1,
+      "value": 3,
       "style": "solid",
       "color": "#FFFFFF",
       "unit": "px",
@@ -146,10 +194,10 @@
       "min": 0,
       "max": 100,
       "value": [
-        25,
-        25,
-        25,
-        25
+        50,
+        50,
+        50,
+        50
       ],
       "masks": {
         "0": "0",
@@ -175,10 +223,10 @@
       "min": 0,
       "max": 50,
       "value": [
-        5,
-        15,
-        5,
-        15
+        10,
+        25,
+        10,
+        10
       ],
       "masks": {
         "0": "0",
@@ -227,10 +275,10 @@
       "value": 20,
       "unit": "px",
       "min": 0,
-      "max": 120,
+      "max": 150,
       "masks": {
         "0": "0",
-        "120": "120"
+        "150": "150"
       },
       "description": false
     },
@@ -307,6 +355,20 @@
       "ja": "絵文字",
       "zh-CN": "表情符号",
       "zh-TW": "表情符號"
+    },
+    {
+      "code": "cc-icon-size",
+      "en-US": "Emoji Size",
+      "ja": "絵文字サイズ",
+      "zh-CN": "表情符号大小",
+      "zh-TW": "表情符號大小"
+    },
+    {
+      "code": "cc-icon-size",
+      "en-US": "Emoji Size",
+      "ja": "絵文字サイズ",
+      "zh-CN": "表情符号大小",
+      "zh-TW": "表情符號大小"
     },
     {
       "code": "cc-bg-color",

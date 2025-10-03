@@ -1,6 +1,6 @@
 {
-  "parentCode": "concurrent-viewers",
-  "presetId": 1,
+  "parentCode": "concurrent-total",
+  "presetId": 4,
   "dataSet": [
     {
       "isCustom": false,
@@ -21,13 +21,7 @@
     {
       "isCustom": false,
       "code": "cc-icon",
-      "value": "🌸"
-    },
-    {
-      "isCustom": false,
-      "code": "cc-icon-size",
-      "value": 25,
-      "unit": "px"
+      "value": "🔥"
     },
     {
       "isCustom": false,
