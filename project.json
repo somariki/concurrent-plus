@@ -91,7 +91,7 @@
                 "zh-TW": "設計"
               }
             },
-            "isSelected": true,
+            "isSelected": false,
             "children": [
               {
                 "title": "cc-font",
@@ -500,7 +500,7 @@
         ]
       }
     ],
-    "isExpanded": true
+    "isExpanded": false
   },
   {
     "title": "Followers (Twitch)",
@@ -1003,7 +1003,7 @@
         ]
       }
     ],
-    "isExpanded": true
+    "isExpanded": false
   },
   {
     "title": "Likes (YT)",
@@ -2010,5 +2010,405 @@
       }
     ],
     "isExpanded": false
+  },
+  {
+    "title": "Viewers-Cyan (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-Cyan (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset5.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 5
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-浅鳳仙紫 (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-浅鳳仙紫 (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset6.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 6
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-Lemonchiffon (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-Lemonchiffon (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset7.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 7
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-群青色 (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-群青色 (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset8.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 8
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-淡紅色  (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-淡紅色  (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset9.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 9
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-草黄  (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-草黄  (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset10.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 10
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-香色 (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-香色 (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset11.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 11
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-Mizuiro (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-Mizuiro (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset12.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 12
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-葱緑 (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-葱緑 (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset13.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 13
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-Canari (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-Canari (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset14.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 14
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-海棠色  (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-海棠色  (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset15.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 15
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Viewers-Pink-Transparent (YT, Twitch, BiliBili)",
+    "data": {
+      "isRoot": true,
+      "name": "Viewers-Pink-Transparent (YT, Twitch, BiliBili)",
+      "code": "concurrent-viewers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset16.json",
+      "cssFile": "preset1.css",
+      "indexFile": null,
+      "presetId": 16
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Likes-Lime (YT)",
+    "data": {
+      "isRoot": true,
+      "name": "Likes-Lime (YT)",
+      "code": "concurrent-like",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset17.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index3.html",
+      "presetId": 17
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Likes-Orange (YT)",
+    "data": {
+      "isRoot": true,
+      "name": "Likes-Orange (YT)",
+      "code": "concurrent-like",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset18.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index3.html",
+      "presetId": 18
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Likes-章丹 (YT)",
+    "data": {
+      "isRoot": true,
+      "name": "Likes-章丹 (YT)",
+      "code": "concurrent-like",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset19.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index3.html",
+      "presetId": 19
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Likes-若竹色 (YT)",
+    "data": {
+      "isRoot": true,
+      "name": "Likes-若竹色 (YT)",
+      "code": "concurrent-like",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset20.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index3.html",
+      "presetId": 20
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Likes-Lime-Transparent (YT)",
+    "data": {
+      "isRoot": true,
+      "name": "Likes-Lime-Transparent (YT)",
+      "code": "concurrent-like",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset21.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index3.html",
+      "presetId": 21
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Followers-藤色 (Twitch)",
+    "data": {
+      "isRoot": true,
+      "name": "Followers-藤色 (Twitch)",
+      "code": "concurrent-followers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset22.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index2.html",
+      "presetId": 22
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Followers-白梅鼠 (Twitch)",
+    "data": {
+      "isRoot": true,
+      "name": "Followers-白梅鼠 (Twitch)",
+      "code": "concurrent-followers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset23.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index2.html",
+      "presetId": 23
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Followers-Skyblue (Twitch)",
+    "data": {
+      "isRoot": true,
+      "name": "Followers-Skyblue (Twitch)",
+      "code": "concurrent-followers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset24.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index2.html",
+      "presetId": 24
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Followers-Hotpink (Twitch)",
+    "data": {
+      "isRoot": true,
+      "name": "Followers-Hotpink (Twitch)",
+      "code": "concurrent-followers",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset25.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index2.html",
+      "presetId": 25
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Total Views-Tokigaratya (Bilibili)",
+    "data": {
+      "isRoot": true,
+      "name": "Total Views-Tokigaratya (Bilibili)",
+      "code": "concurrent-total",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset26.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index4.html",
+      "presetId": 26
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Total Views-勿忘草色 (Bilibili)",
+    "data": {
+      "isRoot": true,
+      "name": "Total Views-勿忘草色 (Bilibili)",
+      "code": "concurrent-total",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset27.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index4.html",
+      "presetId": 27
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Total Views-苦瓜緑 (Bilibili)",
+    "data": {
+      "isRoot": true,
+      "name": "Total Views-苦瓜緑 (Bilibili)",
+      "code": "concurrent-total",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset28.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index4.html",
+      "presetId": 28
+    },
+    "isSelected": false
+  },
+  {
+    "title": "Total Views-淡黄 (Bilibili)",
+    "data": {
+      "isRoot": true,
+      "name": "Total Views-淡黄 (Bilibili)",
+      "code": "concurrent-total",
+      "type": "concurrent-viewers",
+      "isOriginal": true,
+      "assetFile": "asset1.json",
+      "presetFile": "preset29.json",
+      "cssFile": "preset1.css",
+      "indexFile": "index4.html",
+      "presetId": 29
+    },
+    "isSelected": true
   }
 ]

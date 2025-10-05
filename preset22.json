@@ -1,0 +1,109 @@
+{
+	"parentCode": "concurrent-followers",
+	"presetId": 22,
+	"dataSet": [
+		{
+			"isCustom": false,
+			"code": "onecomme-service",
+			"value": ""
+		},
+		{
+			"isCustom": false,
+			"code": "cc-font",
+			"color": "#FFFFFF",
+			"font": "Potta One",
+			"style": "normal",
+			"type": "none",
+			"size": 60,
+			"unit": "px",
+			"weight": 600
+		},
+		{
+			"isCustom": false,
+			"code": "cc-icon",
+			"value": "🐾"
+		},
+		{
+			"isCustom": false,
+			"code": "cc-icon-size",
+			"value": 25,
+			"unit": "px"
+		},
+		{
+			"isCustom": false,
+			"code": "cc-bg-color",
+			"value": "#b5bad6"
+		},
+		{
+			"isCustom": false,
+			"code": "cc-border",
+			"value": 3,
+			"style": "solid",
+			"color": "#FFFFFF",
+			"unit": "px"
+		},
+		{
+			"isCustom": false,
+			"code": "cc-radius",
+			"unit": "px",
+			"value": [
+				50,
+				50,
+				50,
+				50
+			]
+		},
+		{
+			"isCustom": false,
+			"code": "cc-padding",
+			"unit": "px",
+			"value": [
+				10,
+				25,
+				10,
+				10
+			]
+		},
+		{
+			"isCustom": false,
+			"code": "cc-min-width",
+			"value": 80,
+			"unit": "px"
+		},
+		{
+			"isCustom": false,
+			"code": "cc-min-height",
+			"value": 20,
+			"unit": "px"
+		},
+		{
+			"isCustom": false,
+			"code": "cc-box-shadow",
+			"isEffect": true,
+			"horizontal": 0,
+			"vertical": 7,
+			"blur": 7,
+			"unit": "px",
+			"color": "#64646f33",
+			"inset": false,
+			"spread": 0
+		},
+		{
+			"isCustom": false,
+			"code": "cc-icon-color",
+			"value": "#000000"
+		},
+		{
+			"isCustom": false,
+			"code": "cc-margin",
+			"value": [
+				0,
+				0,
+				0,
+				0
+			],
+			"unit": "px"
+		}
+	]
+}
+		
