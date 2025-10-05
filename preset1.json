@@ -31,9 +31,8 @@
     },
     {
       "isCustom": false,
-      "code": "cc-icon-size",
-      "value": 25,
-      "unit": "px"
+      "code": "cc-icon-color",
+      "value": "#000000"
     },
     {
       "isCustom": false,
@@ -81,6 +80,17 @@
       "code": "cc-min-height",
       "value": 20,
       "unit": "px"
+    },
+    {
+      "isCustom": false,
+      "code": "cc-margin",
+      "unit": "px",
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ]
     },
     {
       "isCustom": false,

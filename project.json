@@ -91,7 +91,7 @@
                 "zh-TW": "設計"
               }
             },
-            "isSelected": false,
+            "isSelected": true,
             "children": [
               {
                 "title": "cc-font",
@@ -195,32 +195,35 @@
                 "isSelected": false
               },
               {
-                "title": "cc-icon-size",
+                "title": "cc-icon-color",
                 "isLeaf": true,
                 "data": {
                   "isAttribute": true,
                   "visible": true,
                   "isCss": true,
                   "isJs": false,
-                  "code": "cc-icon-size",
+                  "code": "cc-icon-color",
                   "language": {
-                    "en-US": "Emoji Size",
-                    "ja": "絵文字サイズ",
-                    "zh-CN": "表情符号大小",
-                    "zh-TW": "表情符號大小"
+                    "en-US": "Emoji Color",
+                    "ja": "絵文字の色",
+                    "zh-CN": "表情符号颜色",
+                    "zh-TW": "表情符號顏色"
                   },
-                  "isDescription": false,
-                  "attribute": "size",
+                  "isDescription": true,
+                  "attribute": "color",
                   "attributeSet": {
                     "isSetCustom": false,
                     "isCustom": false,
                     "isOriginal": false,
                     "oriFrom": null,
-                    "valueType": "number",
-                    "value": 25,
-                    "min": 0,
-                    "max": 100,
-                    "unit": "px"
+                    "valueType": "string",
+                    "value": "#000000"
+                  },
+                  "description": {
+                    "en-US": "Use this when your emoji requires a color.",
+                    "ja": "絵文字に色が必要なときに使用します。",
+                    "zh-CN": "当你的表情符号需要颜色时使用。",
+                    "zh-TW": "當你的表情符號需要顏色時使用。"
                   }
                 },
                 "isSelected": false
@@ -417,6 +420,40 @@
                 "isSelected": false
               },
               {
+                "title": "cc-margin",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-margin",
+                  "language": {
+                    "en-US": "Margin",
+                    "ja": "マージン",
+                    "zh-CN": "外边距",
+                    "zh-TW": "外邊距"
+                  },
+                  "isDescription": false,
+                  "attribute": "margin",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "valueTop": 0,
+                    "valueRight": 0,
+                    "valueBottom": 0,
+                    "valueLeft": 0,
+                    "min": 0,
+                    "max": 50,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
                 "title": "cc-box-shadow",
                 "isLeaf": true,
                 "data": {
@@ -458,7 +495,7 @@
                 "isSelected": false
               }
             ],
-            "isExpanded": true
+            "isExpanded": false
           }
         ]
       }
@@ -661,6 +698,40 @@
                 "isSelected": false
               },
               {
+                "title": "cc-icon-color",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-icon-color",
+                  "language": {
+                    "en-US": "Emoji Color",
+                    "ja": "絵文字の色",
+                    "zh-CN": "表情符号颜色",
+                    "zh-TW": "表情符號顏色"
+                  },
+                  "isDescription": true,
+                  "attribute": "color",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "string",
+                    "value": "#000000"
+                  },
+                  "description": {
+                    "en-US": "Use this when your emoji requires a color.",
+                    "ja": "絵文字に色が必要なときに使用します。",
+                    "zh-CN": "当你的表情符号需要颜色时使用。",
+                    "zh-TW": "當你的表情符號需要顏色時使用。"
+                  }
+                },
+                "isSelected": false
+              },
+              {
                 "title": "cc-bg-color",
                 "isLeaf": true,
                 "data": {
@@ -846,6 +917,40 @@
                     "value": 20,
                     "min": 0,
                     "max": 150,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
+                "title": "cc-margin",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-margin",
+                  "language": {
+                    "en-US": "Margin",
+                    "ja": "マージン",
+                    "zh-CN": "外边距",
+                    "zh-TW": "外邊距"
+                  },
+                  "isDescription": false,
+                  "attribute": "margin",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "valueTop": 0,
+                    "valueRight": 0,
+                    "valueBottom": 0,
+                    "valueLeft": 0,
+                    "min": 0,
+                    "max": 50,
                     "unit": "px"
                   }
                 },
@@ -1096,6 +1201,40 @@
                 "isSelected": false
               },
               {
+                "title": "cc-icon-color",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-icon-color",
+                  "language": {
+                    "en-US": "Emoji Color",
+                    "ja": "絵文字の色",
+                    "zh-CN": "表情符号颜色",
+                    "zh-TW": "表情符號顏色"
+                  },
+                  "isDescription": true,
+                  "attribute": "color",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "string",
+                    "value": "#000000"
+                  },
+                  "description": {
+                    "en-US": "Use this when your emoji requires a color.",
+                    "ja": "絵文字に色が必要なときに使用します。",
+                    "zh-CN": "当你的表情符号需要颜色时使用。",
+                    "zh-TW": "當你的表情符號需要顏色時使用。"
+                  }
+                },
+                "isSelected": false
+              },
+              {
                 "title": "cc-bg-color",
                 "isLeaf": true,
                 "data": {
@@ -1287,6 +1426,40 @@
                 "isSelected": false
               },
               {
+                "title": "cc-margin",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-margin",
+                  "language": {
+                    "en-US": "Margin",
+                    "ja": "マージン",
+                    "zh-CN": "外边距",
+                    "zh-TW": "外邊距"
+                  },
+                  "isDescription": false,
+                  "attribute": "margin",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "valueTop": 0,
+                    "valueRight": 0,
+                    "valueBottom": 0,
+                    "valueLeft": 0,
+                    "min": 0,
+                    "max": 50,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
                 "title": "cc-box-shadow",
                 "isLeaf": true,
                 "data": {
@@ -1333,7 +1506,7 @@
         ]
       }
     ],
-    "isExpanded": true
+    "isExpanded": false
   },
   {
     "title": "Total Views (Bilibili)",
@@ -1531,6 +1704,40 @@
                 "isSelected": false
               },
               {
+                "title": "cc-icon-color",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-icon-color",
+                  "language": {
+                    "en-US": "Emoji Color",
+                    "ja": "絵文字の色",
+                    "zh-CN": "表情符号颜色",
+                    "zh-TW": "表情符號顏色"
+                  },
+                  "isDescription": true,
+                  "attribute": "color",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "string",
+                    "value": "#000000"
+                  },
+                  "description": {
+                    "en-US": "Use this when your emoji requires a color.",
+                    "ja": "絵文字に色が必要なときに使用します。",
+                    "zh-CN": "当你的表情符号需要颜色时使用。",
+                    "zh-TW": "當你的表情符號需要顏色時使用。"
+                  }
+                },
+                "isSelected": false
+              },
+              {
                 "title": "cc-bg-color",
                 "isLeaf": true,
                 "data": {
@@ -1589,7 +1796,7 @@
                     "max": 10
                   }
                 },
-                "isSelected": true
+                "isSelected": false
               },
               {
                 "title": "cc-radius",
@@ -1722,6 +1929,40 @@
                 "isSelected": false
               },
               {
+                "title": "cc-margin",
+                "isLeaf": true,
+                "data": {
+                  "isAttribute": true,
+                  "visible": true,
+                  "isCss": true,
+                  "isJs": false,
+                  "code": "cc-margin",
+                  "language": {
+                    "en-US": "Margin",
+                    "ja": "マージン",
+                    "zh-CN": "外边距",
+                    "zh-TW": "外邊距"
+                  },
+                  "isDescription": false,
+                  "attribute": "margin",
+                  "attributeSet": {
+                    "isSetCustom": false,
+                    "isCustom": false,
+                    "isOriginal": false,
+                    "oriFrom": null,
+                    "valueType": "number",
+                    "valueTop": 0,
+                    "valueRight": 0,
+                    "valueBottom": 0,
+                    "valueLeft": 0,
+                    "min": 0,
+                    "max": 50,
+                    "unit": "px"
+                  }
+                },
+                "isSelected": false
+              },
+              {
                 "title": "cc-box-shadow",
                 "isLeaf": true,
                 "data": {
@@ -1768,6 +2009,6 @@
         ]
       }
     ],
-    "isExpanded": true
+    "isExpanded": false
   }
 ]

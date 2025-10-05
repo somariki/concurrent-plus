@@ -12,6 +12,7 @@
     width: fit-content;
     min-height: var(--cc-min-height);
     padding: var(--cc-padding);
+    margin: var(--cc-margin);
     box-shadow: var(--cc-box-shadow);
 }
 
@@ -26,6 +27,7 @@
         content: var(--cc-icon);
         font-size: var(--cc-icon-size);
         text-align: center;
+        color: var(--cc-icon-color);
         
     }
 }

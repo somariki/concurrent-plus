@@ -119,19 +119,12 @@
       "isCustom": false,
       "isOriginal": false,
       "oriFrom": null,
-      "cssvar": "--cc-icon-size",
-      "code": "cc-icon-size",
+      "cssvar": "--cc-icon-color",
+      "code": "cc-icon-color",
       "parentCode": "design",
-      "attribute": "size",
-      "value": 25,
-      "unit": "px",
-      "min": 0,
-      "max": 100,
-      "masks": {
-        "0": "0",
-        "100": "100"
-      },
-      "description": false
+      "attribute": "color",
+      "value": "#000000",
+      "description": true
     },
     {
       "flag": {
@@ -292,6 +285,35 @@
       "isCustom": false,
       "isOriginal": false,
       "oriFrom": null,
+      "cssvar": "--cc-margin",
+      "code": "cc-margin",
+      "parentCode": "design",
+      "attribute": "margin",
+      "unit": "px",
+      "min": 0,
+      "max": 50,
+      "value": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "masks": {
+        "0": "0",
+        "50": "50"
+      },
+      "description": false
+    },
+    {
+      "flag": {
+        "isVisible": true,
+        "isCss": true,
+        "isJs": false
+      },
+      "isSetCustom": false,
+      "isCustom": false,
+      "isOriginal": false,
+      "oriFrom": null,
       "cssvar": "--cc-box-shadow",
       "code": "cc-box-shadow",
       "parentCode": "design",
@@ -364,11 +386,11 @@
       "zh-TW": "表情符號大小"
     },
     {
-      "code": "cc-icon-size",
-      "en-US": "Emoji Size",
-      "ja": "絵文字サイズ",
-      "zh-CN": "表情符号大小",
-      "zh-TW": "表情符號大小"
+      "code": "cc-icon-color",
+      "en-US": "Emoji Color",
+      "ja": "絵文字の色",
+      "zh-CN": "表情符号颜色",
+      "zh-TW": "表情符號顏色"
     },
     {
       "code": "cc-bg-color",
@@ -413,6 +435,13 @@
       "zh-TW": "最小高度"
     },
     {
+      "code": "cc-margin",
+      "en-US": "Margin",
+      "ja": "マージン",
+      "zh-CN": "外边距",
+      "zh-TW": "外邊距"
+    },
+    {
       "code": "cc-box-shadow",
       "en-US": "Shadow",
       "ja": "影",
@@ -427,6 +456,13 @@
       "ja": "Service IDの設定が完了したら、必ず保存してください。また、OBSリソースを手動でリフレッシュしてください。",
       "zh-CN": "完成 Service ID 设置后，请勿忘保存，并手动刷新 OBS 资源。",
       "zh-TW": "完成 Service ID 設定後，請記得儲存，並手動重新整理 OBS 資源。"
+    },
+    {
+      "code": "cc-icon-color",
+      "en-US": "Use this when your emoji requires a color.",
+      "ja": "絵文字に色が必要なときに使用します。",
+      "zh-CN": "当你的表情符号需要颜色时使用。",
+      "zh-TW": "當你的表情符號需要顏色時使用。"
     }
   ]
 }
