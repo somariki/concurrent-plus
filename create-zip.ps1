@@ -9,7 +9,7 @@ if (!(Test-Path "dist")) {
 }
 
 # Remove existing zip if it exists
-$zipPath = "dist\concurrent-plus.zip"
+$zipPath = "dist\concurrent-plus-v1.0.0.zip"
 if (Test-Path $zipPath) {
     Remove-Item $zipPath -Force
     Write-Host "Removed existing zip file" -ForegroundColor Yellow
