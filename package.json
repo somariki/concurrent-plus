@@ -1,0 +1,15 @@
+{
+  "name": "template-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build-installer": "powershell -ExecutionPolicy Bypass -File build-installer.ps1",
+    "build-zip": "powershell -ExecutionPolicy Bypass -File create-zip.ps1",
+    "build-zip-installer": "powershell -ExecutionPolicy Bypass -File create-zip-installer.ps1",
+    "build": "npm run build-zip && npm run build-installer && npm run build-zip-installer",
+    "help": "echo Usage: npm run build-installer -- -setup setup.iss"
+  },
+  "author": "Soma",
+  "license": "ISC"
+}
